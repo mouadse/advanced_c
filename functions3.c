@@ -14,6 +14,7 @@ void printFour(int num) { printf("%d\n", num * 4); }
 
 typedef void (*function)(int);
 
+<<<<<<< HEAD
 void printer(int num, void (*func)(int)) { func(num); }
 
 int main(void) {
@@ -24,5 +25,9 @@ int main(void) {
   }
   printf("------------------\n");
   printer(1337, printOne);
+=======
+int main(void) {
+  // code goes here
+>>>>>>> origin/main
   return (EXIT_SUCCESS);
 }
