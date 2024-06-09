@@ -29,5 +29,11 @@ int main(void) {
   if (!numbers)
     return (perror("Malloc Failed!!!"), EXIT_FAILURE);
 
+  for (int i = 0; i < 10; i++) {
+    numbers[i] = i;
+  }
+
+  print_if(numbers, p);
+
   return (EXIT_SUCCESS);
 }
