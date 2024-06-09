@@ -35,5 +35,6 @@ int main(void) {
 
   print_if(numbers, p);
 
+  free(numbers);
   return (EXIT_SUCCESS);
 }
